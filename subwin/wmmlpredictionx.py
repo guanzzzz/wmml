@@ -2,6 +2,7 @@ from subwin.wmmlsubeng import *
 from subwin.wmmlprediction import Ui_WMML_prediction
 from PyQt5.QtCore import *
 from PyQt5.QtWidgets import *
+from MLparameters import *
 import sys
 
 
