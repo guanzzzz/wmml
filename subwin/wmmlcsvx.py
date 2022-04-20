@@ -63,10 +63,10 @@ class WMML_csv(QWidget, Ui_WMML_csv):
             if 'target' in all_features:
                 if 'class' in all_features:
                     all_features.remove('class')
+                    self.jz_metas = self.csv[['class']]
                 all_features.remove('target')
                 self.jz_features = self.csv[all_features]
                 self.jz_targets = self.csv[['target']]
-                self.jz_metas = self.csv[['class']]
                 self.fd_model = table_view(self.jz_fd_tab, self.jz_features)
                 self.td_model = table_view(self.jz_td_tab, self.jz_targets)
                 self.infobox.setText("Auto Match Complete！")
