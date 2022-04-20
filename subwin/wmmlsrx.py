@@ -4,6 +4,7 @@ from sklearn import linear_model, metrics
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
 from PyQt5.QtWidgets import *
+from MLparameters import *
 import sys
 
 
