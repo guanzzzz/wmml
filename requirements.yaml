@@ -3,6 +3,7 @@ channels:
   - https://repo.continuum.io/pkgs/free/win-64/
   - defaults
 dependencies:
+  - python=3.8
   - ca-certificates=2022.3.29=haa95532_0
   - certifi=2021.10.8=py38haa95532_2
   - openssl=1.1.1n=h2bbff1b_0
