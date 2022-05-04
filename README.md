@@ -18,6 +18,8 @@ conda env create -f requirements.yaml --name wmml
 
 Please refer to the requirements.yaml for dependencies.
 
+If you are installing in Linux, choose *requirements_linux.yaml* instead.
+
 To activate an environment in your Command Terminal Window, run:
 
 ```
@@ -34,4 +36,10 @@ Now wmml is ready to use! To open the wmml main interface, run:
 
 ```
 python wmml.py
+```
+
+Running QT applications on Linux may encounter some problems, using the following commands on the terminal may effectively solve them.
+
+```
+sudo apt-get install libxcb-xinerama0
 ```

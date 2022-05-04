@@ -1,6 +1,6 @@
 from PyQt5 import QtCore, QtGui, QtWidgets
-import ctypes
-ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("myappid")
+#import ctypes
+#ctypes.windll.shell32.SetCurrentProcessExplicitAppUserModelID("myappid")
 
 
 # noinspection PyUnresolvedReferences
